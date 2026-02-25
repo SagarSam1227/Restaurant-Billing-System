@@ -1,0 +1,64 @@
+/* Hide scrollbar for Chrome, Safari and Edge */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+/* Container for the Floating Action Button (FAB) */
+.fab-container {
+  position: fixed; /* Fixes the position relative to the viewport */
+  bottom: 20px;    /* Positions the button 20px from the bottom */
+  right: 20px;     /* Positions the button 20px from the right */
+  z-index: 40;    /* Ensures the button is above other elements */
+}
+
+/* Styling for the button itself */
+.fab-button {
+  color: white;
+  border-radius: 50%; /* Makes the button circular */
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Optional: Add hover effect for better user experience */
+.fab-button:hover {
+  background-color: brown;
+}
+
+
+.grow {
+  animation: grow 500ms ease;
+  transform-origin: bottom;
+}
+
+@keyframes grow {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+
+
+.fade-in-down {
+  animation: fade-in-down 500ms ease;
+  transform-origin: bottom;
+}
+@keyframes fade-in-down {
+  0% {
+    opacity: 1;
+    transform: translateY(500px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -7,16 +7,16 @@ This application allows restaurant staff to manage products, categories, cart, a
 
 ## 🚀 Features
 
-- 🔐 Login Authentication
-- 🛍️ Product Listing by Category
-- 🔎 Search Functionality
-- 🛒 Add to Cart
-- ➕ Quantity Management
-- 💰 Auto Total Calculation
-- 🗑️ Clear Cart
-- 📱 Responsive Design
-- ⚡ Fast & Optimized using useMemo
-- 🎨 Clean UI with Tailwind CSS
+- Login Authentication
+- Product Listing by Category
+- Search Functionality
+- Add to Cart
+- Quantity Management
+- Auto Total Calculation
+- Clear Cart
+- Responsive Design
+- Fast & Optimized using useMemo
+- Clean UI with Tailwind CSS
 
 ---
 
